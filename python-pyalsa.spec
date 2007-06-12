@@ -11,6 +11,7 @@ URL:		http://www.alsa-project.org/
 BuildRequires:	alsa-lib-devel >= 1.0.14
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	rpm-pythonprov
+BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python-libs
 Requires:	alsa-lib >= 1.0.14
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
