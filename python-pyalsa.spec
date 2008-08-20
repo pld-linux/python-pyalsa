@@ -1,12 +1,12 @@
 Summary:	Python binding for the ALSA library
 Summary(pl.UTF-8):	Wiązanie Pythona do biblioteki ALSA
 Name:		python-pyalsa
-Version:	1.0.16
+Version:	1.0.17
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries/Python
 Source0:	ftp://ftp.alsa-project.org/pub/pyalsa/pyalsa-%{version}.tar.bz2
-# Source0-md5:	a1f4d561fa5c41a570480f3f328559a2
+# Source0-md5:	cb38d76edaf47b85baf7eec2b60da5fa
 URL:		http://www.alsa-project.org/
 BuildRequires:	alsa-lib-devel >= 1.0.14
 BuildRequires:	python-devel >= 1:2.5
