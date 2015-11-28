@@ -26,15 +26,12 @@ Wiązanie Pythona do biblioteki ALSA.
 %setup -q -n pyalsa-%{version}
 
 %build
-CFLAGS="%{rpmcflags}" \
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
