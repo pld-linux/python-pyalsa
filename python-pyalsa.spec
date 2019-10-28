@@ -7,7 +7,7 @@ Summary:	Python 2 binding for the ALSA library
 Summary(pl.UTF-8):	Wiązanie Pythona 2 do biblioteki ALSA
 Name:		python-pyalsa
 Version:	1.1.6
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		Libraries/Python
 Source0:	ftp://ftp.alsa-project.org/pub/pyalsa/pyalsa-%{version}.tar.bz2
