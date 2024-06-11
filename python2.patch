@@ -1,0 +1,13 @@
+--- pyalsa-1.2.12/pyalsa/common.h.orig	2024-06-10 11:18:38.000000000 +0200
++++ pyalsa-1.2.12/pyalsa/common.h	2024-06-12 01:38:26.683769278 +0200
+@@ -85,8 +85,8 @@
+ 	} while (0)
+   #define CALLBACK_DONE \
+ 	do { \
+-		PyThreadState_Swap(origstate); \
+-		PyThreadState_Delete(tstate); \
++		PyThreadState_Swap(__origstate); \
++		PyThreadState_Delete(__tstate); \
+ 	} while (0)
+ #endif
+ 
